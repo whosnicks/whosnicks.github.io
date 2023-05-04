@@ -1,5 +1,4 @@
 import './Learn.css'
-import arrowUp from '../../assets/icons/up-arrow.png'
 import Accordion from '../../components/accordion/Accordion'
 
 const Learn = () => {
