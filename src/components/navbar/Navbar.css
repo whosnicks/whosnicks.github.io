@@ -1,0 +1,118 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 13vh;
+    /* width: 100vw; */
+    /* position: fixed; */
+    background-color: var(--mainColor);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav .logo {
+    font-size: 2.3rem;
+    color: var(--secondaryColor);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav .logo span {
+    color: var(--textColor);
+}
+
+.nav-link {
+    color: var(--secondaryColor);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-right: 1em;
+}
+
+.nav-link:hover {
+    color: var(--textColor);
+    transition: 0.3s ease-in;
+}
+
+.socialIcons {
+    font-size: 22px;
+    display: flex;
+    gap: 15px;
+}
+
+.socialIcons .linkedinIcon, .githubnIcon {
+    color: var(--textColor);
+}
+
+.socialIcons .linkedinIcon:hover, .githubnIcon:hover {
+    color: var(--secondaryColor);
+    transition: 0.3s ease-in;
+}
+
+.navBtn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.navBtn:hover {
+    color: var(--secondaryColor);
+}
+
+@media only screen and (max-width: 786px) {
+    .socialIcons {
+        display: none;
+    }
+
+}
+
+@media (max-width: 690px) {
+      .burguerMenuOpen {
+          display: block;
+      }
+
+      .navBtn {
+        visibility: visible;
+        opacity: 1;
+        font-size: 1.8rem;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5;
+        background-color: var(--mainColor);
+        transition: 0.7s;
+        transform: translateY(-100vh);
+        z-index: 1;
+    }
+    
+    .nav-link {
+        font-size: 1.5rem;
+        padding: 5px 0;
+        
+    }
+
+    .NavCloseBtn {
+        position: absolute;
+        top: 2rem;
+    }
+
+    .logo {
+        display: none;
+    }
+    
+    .responsiveNav {
+        transform: none;
+    }
+}

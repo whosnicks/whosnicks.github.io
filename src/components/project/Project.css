@@ -1,0 +1,13 @@
+.wrapperProject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #1d1d1c 70%, #226d88 100%);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.titleProjects {
+    font-size: 1.5rem;
+    text-align: center;
+}

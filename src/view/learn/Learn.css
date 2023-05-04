@@ -1,0 +1,31 @@
+.learn {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    background: var(--backgroundLinear);
+    height: auto;
+    box-shadow: inset 0px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.steps {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.steps h2 {
+    text-align: center;
+}
+
+.learnWithMe {
+    width: 100%;
+}
+
+.learnWithMe h2 {
+    text-align: center;
+}
+
+@media (max-width: 485px) {
+    .learn {
+        flex-direction: column;
+    }
+} 

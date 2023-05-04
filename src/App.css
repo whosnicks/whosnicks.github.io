@@ -1,10 +1,26 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  font-family: 'Open Sans', sans-serif;
 }
 
+#root {
+  --mainColor: #1f1e1e;
+  --mainColorLight: #242424;
+  --secondaryColor: #0ca8bc;
+  --textColor: #e2e2e2;
+  --backgroundLinear: linear-gradient(to bottom right, #1d1d1c 55%, #226d88 100%);
+}
+
+span {
+  color: #1b9bbc;
+}
+
+
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +55,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
