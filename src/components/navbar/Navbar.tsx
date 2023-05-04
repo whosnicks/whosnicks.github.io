@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href="#">
             <FaLinkedinIn className='linkedinIcon' />
             </a>
-            <a href="">
+            <a href="#">
             <FaGithub className='githubnIcon' />
             </a>
             </div>
